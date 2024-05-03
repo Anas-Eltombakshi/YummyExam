@@ -1,0 +1,54 @@
+nav{
+    width:80px ;
+    z-index: 99;
+}
+.navbar-toggler{
+    margin-top: 200px;
+}
+.navlogo{
+width: 50px;
+height: 50px;
+}
+main{
+    width: calc(100% - 120px);
+    top:50px ;
+}
+.main-dish{
+    width: 320px;
+    height: 320px;
+}
+.categories{
+    width: 330px;
+    height: 190px;
+}
+.white-img-layer{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    opacity: 1;
+    top: 100%;
+    transition: .5s;
+}
+.main-dish:hover .white-img-layer, .categories:hover .white-img-layer{
+    top: 0;
+}
+.main-dish-container{
+    margin-left: 4rem !important;
+}
+.dish-instructions{
+    width: 60%;
+}
+.specif-img{
+    width: 416px;
+    height: 416px;
+}
+.alert{
+    width:fit-content;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.navBtmIcons{
+margin-top: 320px ;
+margin-left:10px ;
+}
