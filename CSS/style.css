@@ -1,6 +1,13 @@
-nav{
+.offcanvas-backdrop{
+    opacity: 0!important;
+}
+
+.navbar{
     width:80px ;
-    z-index: 99;
+    z-index: 99999999999;
+}
+.offcanvas{
+    width: 320px!important;
 }
 .navbar-toggler{
     margin-top: 200px;
@@ -51,4 +58,21 @@ main{
 .navBtmIcons{
 margin-top: 320px ;
 margin-left:10px ;
+}
+.nav-item{
+    cursor: pointer;
+}
+.ingred-icon{
+    font-size: 45px;
+}
+.ingreds,.areas{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+}
+input::placeholder{
+    color: white;
 }
